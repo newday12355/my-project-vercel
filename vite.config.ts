@@ -13,6 +13,7 @@ export default defineConfig(({ mode }) => ({
     react(),
     mode === 'development' &&
     componentTagger(),
+    base: "./",
   ].filter(Boolean),
   resolve: {
     alias: {
